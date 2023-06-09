@@ -4,11 +4,12 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.AspNetCore.Mvc;
 
 namespace EmployeeManagement
 {
-
     public class Startup
     {
         private IConfiguration _config;
@@ -18,32 +19,28 @@ namespace EmployeeManagement
             _config = config;
         }
 
-        public void ConfiguringServices(IServiceCollection services)
+        public void ConfigureServices(IServiceCollection services)
         {
-
+            services.AddMvc(options => options.EnableEndpointRouting = false);
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
-                DeveloperExceptionPageOptions developerExceptionPageOptions = new DeveloperExceptionPageOptions();
-                developerExceptionPageOptions.SourceCodeLineCount = 10;
-                app.UseDeveloperExceptionPage(developerExceptionPageOptions);
+                app.UseDeveloperExceptionPage();
             }
 
-            app.UseFileServer();
+            app.UseStaticFiles();
+            app.UseMvcWithDefaultRoute();
             //app.UseDefaultFiles();
             //app.UseStaticFiles();
 
             app.Run(async (context) =>
             {
-                throw new Exception("Some error processing the request");
                 await context.Response.WriteAsync("Hello World!");
             });
-
         }
-
     }
-
 }
+
