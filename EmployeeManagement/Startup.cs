@@ -11,6 +11,12 @@ namespace EmployeeManagement
 
     public class Startup
     {
+        private IConfiguration _config;
+
+        public Startup(IConfiguration config)
+        {
+            _config = config;
+        }
 
         public void ConfiguringServices(IServiceCollection services)
         {
@@ -24,12 +30,17 @@ namespace EmployeeManagement
                 app.UseDeveloperExceptionPage();
             }
 
+            FileServerOptions fileServerOptions = new FileServerOptions();
+            fileServerOptions.DefaultFilesOptions.DefaultFileNames.Clear();
+            fileServerOptions.DefaultFilesOptions.DefaultFileNames.Add("foo.html");
+            app.UseFileServer(fileServerOptions);
+            //app.UseDefaultFiles(defaultFilesOptions);
+            //app.UseStaticFiles();
+
             app.Run(async (context) =>
             {
-                await context.Response
-                .WriteAsync("Hello World!");
+                await context.Response.WriteAsync("Hello World!");
             });
-            
 
         }
 

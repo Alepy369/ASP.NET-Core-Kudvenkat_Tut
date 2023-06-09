@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/P6gI7fRX49Kk0XF5p5po1b770qEoKHpidIVOudSA2o=",
+  "Hash": "ZX+7+XAP3nbwE0A2WaYO73jBMDDxIwp6tETvKBt9iG4=",
   "Source": "EmployeeManagement",
   "BasePath": "_content/EmployeeManagement",
   "Mode": "Default",
@@ -68,6 +68,23 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "C:\\Users\\duart\\source\\repos\\ASP.NET-Core-Kudvenkat_Tut\\EmployeeManagement\\wwwroot\\default.html",
+      "SourceId": "EmployeeManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\duart\\source\\repos\\ASP.NET-Core-Kudvenkat_Tut\\EmployeeManagement\\wwwroot\\",
+      "BasePath": "_content/EmployeeManagement",
+      "RelativePath": "default.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\default.html"
+    },
+    {
       "Identity": "C:\\Users\\duart\\source\\repos\\ASP.NET-Core-Kudvenkat_Tut\\EmployeeManagement\\wwwroot\\favicon.ico",
       "SourceId": "EmployeeManagement",
       "SourceType": "Discovered",
@@ -83,6 +100,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\duart\\source\\repos\\ASP.NET-Core-Kudvenkat_Tut\\EmployeeManagement\\wwwroot\\foo.html",
+      "SourceId": "EmployeeManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\duart\\source\\repos\\ASP.NET-Core-Kudvenkat_Tut\\EmployeeManagement\\wwwroot\\",
+      "BasePath": "_content/EmployeeManagement",
+      "RelativePath": "foo.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\foo.html"
+    },
+    {
+      "Identity": "C:\\Users\\duart\\source\\repos\\ASP.NET-Core-Kudvenkat_Tut\\EmployeeManagement\\wwwroot\\images\\test_1.png",
+      "SourceId": "EmployeeManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\duart\\source\\repos\\ASP.NET-Core-Kudvenkat_Tut\\EmployeeManagement\\wwwroot\\",
+      "BasePath": "_content/EmployeeManagement",
+      "RelativePath": "images/test_1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\test_1.png"
     },
     {
       "Identity": "C:\\Users\\duart\\source\\repos\\ASP.NET-Core-Kudvenkat_Tut\\EmployeeManagement\\wwwroot\\js\\site.js",

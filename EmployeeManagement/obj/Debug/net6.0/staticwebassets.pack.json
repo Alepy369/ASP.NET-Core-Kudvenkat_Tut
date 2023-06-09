@@ -9,8 +9,20 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\duart\\source\\repos\\ASP.NET-Core-Kudvenkat_Tut\\EmployeeManagement\\wwwroot\\default.html",
+      "PackagePath": "staticwebassets\\default.html"
+    },
+    {
       "Id": "C:\\Users\\duart\\source\\repos\\ASP.NET-Core-Kudvenkat_Tut\\EmployeeManagement\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\duart\\source\\repos\\ASP.NET-Core-Kudvenkat_Tut\\EmployeeManagement\\wwwroot\\foo.html",
+      "PackagePath": "staticwebassets\\foo.html"
+    },
+    {
+      "Id": "C:\\Users\\duart\\source\\repos\\ASP.NET-Core-Kudvenkat_Tut\\EmployeeManagement\\wwwroot\\images\\test_1.png",
+      "PackagePath": "staticwebassets\\images\\test_1.png"
     },
     {
       "Id": "C:\\Users\\duart\\source\\repos\\ASP.NET-Core-Kudvenkat_Tut\\EmployeeManagement\\wwwroot\\js\\site.js",
